@@ -1304,6 +1304,47 @@ textarea.form-input {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
     }
+
+    @media screen and (max-width: 480px) {
+    .contact-wrapper {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .contact-form,
+    .contact-info-wrapper {
+        transform: none;
+        animation: none;
+        opacity: 1;
+    }
+
+    .contact-form,
+    .contact-info-item {
+        padding: 1.2rem;
+    }
+
+    .send-message-btn {
+        font-size: 1rem;
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .contact-info-wrapper {
+        gap: 1rem;
+    }
+
+    .social-links-contact {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social-link {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+    }
+}
+
 }
 
 /* Footer */
