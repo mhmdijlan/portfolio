@@ -1300,6 +1300,9 @@ textarea.form-input {
 }
 
 @media (max-width: 480px) {
+    .intro-text h2.subtitle {
+        font-size: 1.5rem;
+    }
     .tech-grid {
         grid-template-columns: repeat(4, 1fr);
         gap: 1rem;
